@@ -1,5 +1,4 @@
-const connecti=require('./config');
-
+const connecti=require('./config')
 const execute = function (query, bindValuesArray) {
   return new Promise((resolve, reject) => {
     connecti.getConnection((err, connection) => {

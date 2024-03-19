@@ -6,6 +6,6 @@ const router=express.Router();
 
 
  router.post('/',createBlog.Blog)
-
+router.get('/',createBlog.getBlog)
 
  exports.router=router;
