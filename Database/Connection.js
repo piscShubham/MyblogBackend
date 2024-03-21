@@ -19,7 +19,6 @@ const execute = function (query, bindValuesArray) {
     });
   });
 };
-
 module.exports = { execute };
 
 

@@ -8,6 +8,4 @@ const con=mysql.createPool({
     connectionLimit:10
     
 })
-
-
 module.exports=con;
